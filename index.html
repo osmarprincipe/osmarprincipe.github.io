@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Osmar Principe | Creative Digital Designer</title>
     <meta name="description" content="Hi I'm Osmar, Data Scientist based in Dublin. Mobile and Responsive Web Design, eCommerce Websites, Branding and Logo Design.">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/global.css">
     
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-PVRLNHTEJY"></script>
@@ -14,28 +14,65 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-PVRLNHTEJY');
+    </script>
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+   
     <!-- Styles for Cookie Consent Popup Message  -->
     <link href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" rel="stylesheet">
-</script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">    
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">    
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">    
+    <link rel="manifest" href="assets/img/favicons/site.webmanifest">
+
 </head>
 
 <body>
   <header>
-  <h1>Hi, I'm Osmar Principe</h1>
-  <h2>Data Scientist and Software developer</h2>
-  <img src="assets/img/main.jpg" alt="my website">
-  </header>
 
-  <main>
-  <p>I created this website to showcase some of my recent web design work.</p> 
-  <p><a href="exercises/page-1.html"> Page 1</a></p>
-  <p><a href="exercises/page-2.html"> Page 2</a></p>
-  <p><a href="exercises/page-3.html"> Page 3 </a></p>
-  <p><a href="exercises/page-4.html">Vincent van Gogh</a></p> 
-  <p><a href="exercises/page-5.html">Irish Tourism</a></p>
-  </main>
+        <div class="hero-text-container">
+            <h1 class="slide-in-top">Hi, I'm Osmar Principe</h1>
+            <h2 class="slide-in-left">Data Scientist|Software developer</h2>
+        </div>
 
+        <div class="hero-bg-media">
+            <video loop playsinline muted autoplay poster= "assets/videos/video-cover.mp4" class="background-video" disablepictureinpicture preload="assets/videos/photo-cover.jpg"> 
+            <source src="assets/videos/video-cover.mp4" type="video/mp4">
+            </video>
+        </div>
+        
+        <div class="bg-overlay"></div>
+
+    </header>
+
+        <main>
+        <section class="work-links">
+            <h3>Recent work & exercises</h3>
+
+            <ul class="links-grid">
+            <li><a class="link-card" href="exercises/page-1.html">Page 1</a></li>
+            <li><a class="link-card" href="exercises/page-2.html">Page 2</a></li>
+            <li><a class="link-card" href="exercises/page-3.html">Page 3</a></li>
+            <li><a class="link-card" href="exercises/page-4.html">Vincent van Gogh</a></li>
+            <li><a class="link-card" href="exercises/page-5.html">Irish Tourism</a></li>
+            <li><a class="link-card" href="exercises/hero-text.html">Hero: animated text</a></li>
+            <li><a class="link-card" href="exercises/hero-image.html">Hero: background image</a></li>
+            <li><a class="link-card" href="exercises/hero-video.html">Hero: background video</a></li>
+            </ul>
+        </section>
+        </main>
   
+
     <!-- JavaScript for Cookie Consent Popup Message -->
     <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
     <script>
@@ -49,10 +86,12 @@
             }
         },
         "content": {
-            "href": "osmarprincipe.github.io/privacy.html"
+            "href": "https://username.github.io/privacy.html"
         }
     });
     </script>
+    
+   
 </body>
 </html>
 
